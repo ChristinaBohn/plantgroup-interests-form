@@ -11,7 +11,7 @@
 
         <!-- Title & Description -->
          <h1>Welcome to Rooting for Everett!</h1>
-         <p>Our plant group is growing, and we want to know what your interests are. Let us know what your favorite ideas are or submit one of your own.
+         <p>Our plant group is growing, and we want to know what your interests are. Let us know your favorite ideas or submit one of your own.
             <br><br>
             Enter your name, email, and what brought you to our group. We will send the new meetup schedule in our next newsletter!</p>
 
@@ -30,14 +30,14 @@
 
             <!-- # of Plants (number) -->
             <fieldset>
-                <label for="number" id="number-label" >Confession time! How many plants do you have? 
+                <label for="number" id="number-label" >How many plants do you care for? 
                   <input id="number" name="number" type="number" min="0" max="1000" placeholder="0-1000" />
                 </label>
             </fieldset>
 
             <!-- Referral (dropdown) -->
             <fieldset>
-                <label for="dropdown" >How did you hear about the group?
+                <label for="dropdown" >How did you hear about Rooting for Everett?
                   <select id="dropdown" name="dropdown">
                     <option value="" >(select one)</option>
                     <option value="1" >A Friend</option>
@@ -49,9 +49,26 @@
                 </label>
             </fieldset>
 
-            <!-- TODO: Indoor/Outdoor (radio buttons) -->
+            <!-- Indoor/Outdoor (radio buttons) -->
+            <fieldset>
+                <legend>Do you prefer indoor or outdoor gardening?</legend>
+                <label for="indoor"><input id="indoor" type="radio" name="radio" class="inline" value ="indoor" checked /> Indoor</label>
+                <label for="outdoor"><input id="outdoor" type="radio" name="radio" class="inline" value ="outdoor"/> Outdoor</label>
+                <label for="both"><input id="both" type="radio" name="radio" class="inline" value ="both"/> Both</label>
+            </fieldset>
 
-            <!-- TODO: What kind of meetups? (checkboxes) -->
+            <!-- What kind of meetups? (checkboxes) -->
+            <fieldset>
+                <legend>What kind of meetups do you want to see? Check none, one, or more:</legend>
+                  <input type="checkbox" id="clippings" name="clippings" value="Clippings">
+                  <label for="clippings"> Plant clipping swaps</label><br>
+                  <input type="checkbox" id="classes" name="classes" value="Classes">
+                  <label for="classes"> Informational classes on propogating, repotting, etc</label><br>
+                  <input type="checkbox" id="crafts" name="crafts" value="Crafts">
+                  <label for="crafts"> Craft days: macrame plant hangers, painting pots, etc</label><br>
+                  <input type="checkbox" id="margaritas" name="margaritas" value="Margaritas">
+                  <label for="margaritas"> Margaritas!</label><br>
+            </fieldset>
 
             <!-- TODO: Other ideas? (text area) -->
 
