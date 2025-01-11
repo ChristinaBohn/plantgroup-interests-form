@@ -18,24 +18,36 @@
         <!-- Survey Form -->
         <form id="survey-form">
 
-            <!-- TODO: Contact Info (name and email) -->
+            <!-- Contact Info (name and email) -->
             <fieldset>
-                <label for="name" id="name-label">*Name: 
+                <label for="name" id="name-label" >*Name: 
                   <input id="name" name="name" type="text" placeholder="Judy Plantlover" required />
                 </label>
-                <label for="email" id="email-label">*Email: 
+                <label for="email" id="email-label" >*Email: 
                   <input id="email" name="email" type="email" placeholder="GreenhouseGirl@leaf.com" required />
                 </label>
             </fieldset>
 
-            <!-- TODO: # of Plants (number) -->
+            <!-- # of Plants (number) -->
             <fieldset>
-                <label for="number" id="number-label">Confession time! How many plants do you have? 
+                <label for="number" id="number-label" >Confession time! How many plants do you have? 
                   <input id="number" name="number" type="number" min="0" max="1000" placeholder="0-1000" />
                 </label>
             </fieldset>
 
-            <!-- TODO: Referral (dropdown) -->
+            <!-- Referral (dropdown) -->
+            <fieldset>
+                <label for="dropdown" >How did you hear about the group?
+                  <select id="dropdown" name="dropdown">
+                    <option value="" >(select one)</option>
+                    <option value="1" >A Friend</option>
+                    <option value="2" >TikTok</option>
+                    <option value="3" >Instagram</option>
+                    <option value="4" >Flyer</option>
+                    <option value="4" >Other</option>
+                  </select>
+                </label>
+            </fieldset>
 
             <!-- TODO: Indoor/Outdoor (radio buttons) -->
 
