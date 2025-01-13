@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    font-family: Montserrat;
+    font-family: "Montserrat", serif;
     font-size: 16px;
     color: #F2F3F4;
     background-image: url(/assets/images/colorful-plant-background.jpg);
@@ -16,7 +16,7 @@ body {
     text-align: center;
   }
 
-  .montserrat-heading {
+  .montserrat-fonts {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -28,5 +28,42 @@ body {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    border: 1px solid #F2F3F4;
+    border-radius: 30px;
+    padding: 2.5rem 2rem 2rem;
+  }
+
+  fieldset {
+    border: none;
+    padding: 1rem 0;
+  }
+
+
+  /* Mobile responsiveness */
+  @media (min-width: 992px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+  }
+ 
+  @media (min-width: 768px) {
+    html {
+      font-size: 14px;
+    }
+    
+    h1 {
+      font-size: 3rem;
+    }
+    
+    p {
+      font-size: 2rem;
+    }
   }
