@@ -28,7 +28,8 @@ body {
 header {
     margin: 3em auto;
     text-align: center;
-    max-width: 80%
+    width: 80%;
+    max-width: 1000px;
 }
 
 .montserrat-fonts {
@@ -40,7 +41,7 @@ header {
 
 form {
     width: 60vw;
-    max-width: 500px;
+    max-width: 700px;
     min-width: 300px;
     margin: 0 auto;
     border: 1px solid #F2F3F4;
@@ -54,11 +55,26 @@ fieldset {
 }
 
 /* Input field styles */
+input {
+    background-color: transparent;
+    border: 1px solid #F2F3F4;
+    border-radius: 20px;
+    color: #F2F3F4;
+    font-family: "Montserrat", serif;
+    font-size: 1em;
+    padding: 0.8em;
+}
+
+::placeholder {
+    color: #F2F3F4;
+    opacity: 0.5;
+    font-size: 1em;
+}
 
 #submit {
     background-color: transparent;
     border: 1px solid #F2F3F4;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #F2F3F4;
     font-family: "Montserrat", serif;
     padding: 0.8em;
