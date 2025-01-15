@@ -1,4 +1,4 @@
-/* TODO: Padding and info/icons on bottom, spacing around title/description, favicon in tab title, work on spacing around lines */
+/* TODO: Padding and info/icons on bottom, fix white space on bottom, work on spacing around lines, add less transparent when hover to submit, style input buttons */
 
 /* Mobile Screens */
 html {
@@ -15,7 +15,7 @@ p {
 
 body {
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: 0;
     font-family: "Montserrat", serif;
     color: #F2F3F4;
@@ -23,21 +23,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+}
   
-  h1, p {
-    margin: 1em auto;
+header {
+    margin: 3em auto;
     text-align: center;
-  }
+    max-width: 80%
+}
 
-  .montserrat-fonts {
+.montserrat-fonts {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-  }
+}
 
-  form {
+form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
@@ -45,25 +46,38 @@ body {
     border: 1px solid #F2F3F4;
     border-radius: 30px;
     padding: 2.5rem 2rem 2rem;
-  }
+}
 
-  fieldset {
+fieldset {
     border: none;
     padding: 1rem 0;
-  }
+}
 
+/* Input field styles */
 
-  /* Medium Screens */
-  @media (min-width: 768px) {
+#submit {
+    background-color: transparent;
+    border: 1px solid #F2F3F4;
+    border-radius: 30px;
+    color: #F2F3F4;
+    font-family: "Montserrat", serif;
+    padding: 0.8em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Medium Screens */
+@media (min-width: 768px) {
     html {
       font-size: 20px;
     }
-  } 
+}
+
   
-  /* Large Screens */
-  @media (min-width: 992px) {
+/* Large Screens */
+@media (min-width: 992px) {
     html {
         font-size: 22px;
     }
-  }
+}
  
