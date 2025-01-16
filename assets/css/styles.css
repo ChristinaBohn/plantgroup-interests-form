@@ -1,4 +1,4 @@
-/* TODO: Padding and info/icons on bottom, fix white space on bottom, work on spacing around lines, add less transparent when hover to submit, style input buttons */
+/* TODO: work on spacing around lines, add less transparent when hover to submit, style input buttons */
 
 /* Mobile Screens */
 html {
@@ -17,6 +17,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
+    padding-bottom: 10%;
     font-family: "Montserrat", serif;
     color: #F2F3F4;
     background-image: url(/assets/images/colorful-plant-background.jpg);
@@ -58,28 +59,38 @@ fieldset {
 input {
     background-color: transparent;
     border: 1px solid #F2F3F4;
-    border-radius: 20px;
+    border-radius: 30px;
     color: #F2F3F4;
     font-family: "Montserrat", serif;
-    font-size: 1em;
+    font-size: 1rem;
     padding: 0.8em;
 }
 
 ::placeholder {
     color: #F2F3F4;
     opacity: 0.5;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 #submit {
     background-color: transparent;
     border: 1px solid #F2F3F4;
-    border-radius: 20px;
+    border-radius: 30px;
     color: #F2F3F4;
     font-family: "Montserrat", serif;
     padding: 0.8em;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
+    margin: 25px auto;
+    display: block;
+}
+
+#submit:hover {
+    background: rgba(242, 243, 244, 0.3)
+}
+
+#submit:focus {
+    background: rgba(242, 243, 244, 0.6)
 }
 
 /* Medium Screens */
