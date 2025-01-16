@@ -47,7 +47,7 @@ form {
     margin: 0 auto;
     border: 1px solid #F2F3F4;
     border-radius: 30px;
-    padding: 2.5rem 2rem 2rem;
+    padding: 2rem;
 }
 
 fieldset {
@@ -58,6 +58,10 @@ fieldset {
 #name, #email, #number, #dropdown {
     display: block;
     margin: 10px auto 10px;
+}
+
+.referral {
+    margin-bottom: 3rem;
 }
 
 /* Input field styles */
