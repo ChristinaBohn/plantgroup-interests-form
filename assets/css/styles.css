@@ -1,4 +1,4 @@
-/* TODO: work on spacing around lines, add less transparent when hover to submit, style input buttons */
+/* TODO: work on spacing around lines */
 
 /* Mobile Screens */
 html {
@@ -6,11 +6,11 @@ html {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
 }
 
 body {
@@ -55,8 +55,13 @@ fieldset {
     padding: 1rem 0;
 }
 
+#name, #email, #number, #dropdown {
+    display: block;
+    margin: 10px auto 10px;
+}
+
 /* Input field styles */
-input {
+input, select, textarea {
     background-color: transparent;
     border: 1px solid #F2F3F4;
     border-radius: 30px;
@@ -98,6 +103,10 @@ input {
     html {
       font-size: 20px;
     }
+
+    #name, #email, #number {
+        display: inline;
+    }
 }
 
   
@@ -105,6 +114,10 @@ input {
 @media (min-width: 992px) {
     html {
         font-size: 22px;
+    }
+
+    #name, #email, #number {
+        display: inline;
     }
 }
  
