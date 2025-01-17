@@ -1,6 +1,3 @@
-/* TODO: work on spacing around lines */
-
-/* Mobile Screens */
 html {
     font-size: 18px;
 }
@@ -11,6 +8,13 @@ h1 {
 
 p {
     font-size: 1.15rem;
+}
+
+.montserrat-fonts {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 body {
@@ -33,13 +37,6 @@ header {
     max-width: 1000px;
 }
 
-.montserrat-fonts {
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
 form {
     width: 60vw;
     max-width: 700px;
@@ -57,14 +54,43 @@ fieldset {
 
 #name, #email, #number, #dropdown {
     display: block;
-    margin: 10px auto 10px;
+    margin: 10px auto;
 }
 
-.referral {
-    margin-bottom: 3rem;
+#idea {
+    margin: 10px auto;
 }
 
-/* Input field styles */
+#referral, #preference {
+    margin-bottom: 2rem;
+}
+
+#name, #email, #idea {
+    width: 80%;
+    max-width: 350px;
+}
+
+#number {
+    width: 80px;
+}
+
+#name-label, #email-label, #number-label, #referral, #idea-label {
+    padding-right: 1em;
+    font-weight: 500;
+}
+
+legend {
+    font-weight: 500;
+}
+
+#checkbox-options {
+    display: inline-block;
+}
+
+.checkbox-option {
+    margin: 1em;
+}
+
 input, select, textarea {
     background-color: transparent;
     border: 1px solid #F2F3F4;
@@ -81,6 +107,18 @@ input, select, textarea {
     font-size: 1rem;
 }
 
+#textbox label {
+    text-align: right;
+    float: left;
+    padding-top: 1em;
+}
+
+#textbox input {
+    text-align: left;
+    float: right;
+}
+
+/* Submit Button */
 #submit {
     background-color: transparent;
     border: 1px solid #F2F3F4;
@@ -102,17 +140,22 @@ input, select, textarea {
     background: rgba(242, 243, 244, 0.6)
 }
 
+
 /* Medium Screens */
 @media (min-width: 768px) {
     html {
       font-size: 20px;
     }
 
-    #name, #email, #number {
+    #name, #email, #number, #idea {
         display: inline;
     }
-}
 
+    #radio-options label{
+        padding: 0 20px 10px 0;
+    }
+
+}
   
 /* Large Screens */
 @media (min-width: 992px) {
@@ -120,8 +163,12 @@ input, select, textarea {
         font-size: 22px;
     }
 
-    #name, #email, #number {
+    #name, #email, #number, #idea {
         display: inline;
+    }
+
+    #radio-options label{
+        padding: 0 30px 15px 0;
     }
 }
  
