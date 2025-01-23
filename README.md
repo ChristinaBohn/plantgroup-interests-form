@@ -1,4 +1,4 @@
-# plantgroup-interests-form
+# Plant Group Interests Form
 This is a practice form page for a plant lovers meetup group to collect contact information and interests. It is built using HTML and styled with CSS.
 
 ## Description
@@ -13,4 +13,8 @@ After taking a break from learning to code bootcamp-style, the purpose of this p
 
 ![plantgroup-page-preview](assets/images/plantgroup-page-preview.png)
 
-## Check It Out Here:
+## Link to the Project:
+https://christinabohn.github.io/plantgroup-interests-form/
+
+## Thank You
+For taking the time to check out my page!
