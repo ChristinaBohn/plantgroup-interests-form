@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Rooting for Everett</title>
-        <link rel="icon" type="image/x-icon" href="/assets/images/plant-favicon.png">
+        <link rel="icon" type="image/x-icon" href="assets/images/plant-favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="Practice project form that gathers information for a plant meetup group"/>
         <link rel="stylesheet" href="./assets/css/styles.css"/>
@@ -60,9 +60,15 @@
             <fieldset id="preference">
                 <legend>Do you prefer indoor or outdoor gardening?</legend>
                 <div id="radio-options">
-                    <label for="indoor"><input id="indoor" type="radio" name="radio" class="inline" value ="indoor" checked /> Indoor</label>
-                    <label for="outdoor"><input id="outdoor" type="radio" name="radio" class="inline" value ="outdoor"/> Outdoor</label>
-                    <label for="both"><input id="both" type="radio" name="radio" class="inline" value ="both"/> Both</label>
+                    <div class="radio-option">
+                        <label for="indoor"><input id="indoor" type="radio" name="radio" class="inline" value ="indoor" checked /> Indoor</label>
+                    </div>
+                    <div class="radio-option" >  
+                        <label for="outdoor"><input id="outdoor" type="radio" name="radio" class="inline" value ="outdoor"/> Outdoor</label>
+                    </div>    
+                    <div class="radio-option">    
+                        <label for="both"><input id="both" type="radio" name="radio" class="inline" value ="both"/> Both</label>
+                    </div>
                 </div>
             </fieldset>
 

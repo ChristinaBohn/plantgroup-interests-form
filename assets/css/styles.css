@@ -24,7 +24,7 @@ body {
     padding-bottom: 10%;
     font-family: "Montserrat", serif;
     color: #F2F3F4;
-    background-image: url(/assets/images/colorful-plant-background.jpg);
+    background-image: url(../images/colorful-plant-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -62,7 +62,7 @@ fieldset {
 }
 
 #referral, #preference {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #name, #email, #idea {
@@ -77,6 +77,14 @@ fieldset {
 #name-label, #email-label, #number-label, #referral, #idea-label {
     padding-right: 1em;
     font-weight: 500;
+}
+
+#radio-options {
+    display: block;
+}
+
+.radio-option {
+    margin: 0.5em 0 0.5em 1em;
 }
 
 legend {
@@ -149,6 +157,10 @@ input, select, textarea {
 
     #name, #email, #number, #idea {
         display: inline;
+    }
+
+    #radio-options, .radio-option {
+        display: inline-block;
     }
 
     #radio-options label{
