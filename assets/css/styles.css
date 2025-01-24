@@ -126,6 +126,10 @@ input, select, textarea {
     float: right;
 }
 
+input[type='radio'], input[type='checkbox'] {
+    accent-color: #6036fb;
+}
+
 /* Submit Button */
 #submit {
     background-color: transparent;
@@ -148,6 +152,12 @@ input, select, textarea {
     background: rgba(242, 243, 244, 0.6)
 }
 
+.center-button {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+}
 
 /* Medium Screens */
 @media (min-width: 768px) {
@@ -173,10 +183,6 @@ input, select, textarea {
 @media (min-width: 992px) {
     html {
         font-size: 22px;
-    }
-
-    #name, #email, #number, #idea {
-        display: inline;
     }
 
     #radio-options label{
