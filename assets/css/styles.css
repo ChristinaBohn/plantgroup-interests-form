@@ -3,16 +3,25 @@
     --white: #f2f3f4;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 18px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding-bottom: 20px;
 }
 
 p {
-    font-size: 1.15rem;
+    font-size: 1.10rem;
+    font-weight: 300;
 }
 
 .montserrat-fonts {
@@ -43,7 +52,7 @@ header {
 }
 
 form {
-    width: 60vw;
+    width: 75vw;
     max-width: 700px;
     min-width: 300px;
     margin: 0 auto;
@@ -76,7 +85,7 @@ fieldset {
 }
 
 #number {
-    width: 80px;
+    width: 110px;
     text-align: center;
 }
 
@@ -90,7 +99,7 @@ fieldset {
 }
 
 .radio-option {
-    margin: 0.5em 0 0.5em 1em;
+    margin: 0 0 0.5em 1em;
 }
 
 legend {
@@ -99,6 +108,10 @@ legend {
 
 #checkbox-options {
     display: inline-block;
+}
+
+#meetups-legend {
+    margin-bottom: -20px;
 }
 
 .checkbox-option {
