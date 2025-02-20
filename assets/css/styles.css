@@ -180,16 +180,27 @@ input[type='radio'], input[type='checkbox'] {
 
 /* Github Icon */
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-top: 40px;
 }
 
+footer p {
+    font-size: 0.75rem;
+}
+
 footer i {
+    padding: 10px;
     transition: 0.5s;
 }
 
 footer i:hover {
-    transform:scale(1.5);
+    transform:scale(1.4);
+}
+
+#gh-link {
+    display: flex;
+    align-items: center;
 }
 
 /* Medium Screens */
