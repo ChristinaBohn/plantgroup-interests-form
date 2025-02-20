@@ -178,6 +178,20 @@ input[type='radio'], input[type='checkbox'] {
     border: none;
 }
 
+/* Github Icon */
+footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer i {
+    transition: 0.5s;
+}
+
+footer i:hover {
+    transform:scale(1.5);
+}
+
 /* Medium Screens */
 @media (min-width: 768px) {
     html {
